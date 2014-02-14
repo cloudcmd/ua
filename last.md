@@ -341,6 +341,7 @@ ln -s ./sites-enabled/io.cloudcmd.io ./sites-available
 - [jquery]                  [jqueryURL]
 - [socket.io]               [socketIOURL]
 - [http-auth]               [httpAuthURL]
+- [fs-extra]                [fs-extraURL]
 
 [AceURL]:                   http://ace.ajax.org/ "Ace"
 [FancyBoxURL]:              //github.com/fancyapps/fancyBox "FancyBox"
@@ -351,6 +352,7 @@ ln -s ./sites-enabled/io.cloudcmd.io ./sites-available
 [jqueryURL]:                //jquery.com
 [socketIOURL]:              http://socket.io
 [httpAuthURL]:              //github.com/gevorg/http-auth
+[fs-extraURL]:              //github.com/jprichardson/node-fs-extra "fs-extra"
 
 Долучитися до проекту
 ---------------
