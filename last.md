@@ -54,24 +54,22 @@ Cloud Commander 0.9.0 [![NPM version][NPMIMGURL]][NPMURL] [![Dependency Status][
 ```
 git clone git://github.com/coderaiser/cloudcmd.git
 cd cloudcmd
+npm install
 node cloudcmd
 ```
 або встановити в npm:
 ```
-npm i cloudcmd -g
+npm install cloudcmd -g
 cloudcmd
 ```
 
 Додаткові модулі
 ---------------
-**Серверна частина Cloud Commander** не використовує додаткові модулі для основного функціоналу.
-Але для роботи консолі, а також мінімізації, оптимізації додатково можна 
-призначити (та встановити) модулі [Minify] (https://github.com/coderaiser/minify "Minify")
-та [socket.io] (https://github.com/LearnBoost/socket.io "Socket.IO").
+**Cloud Commander** може працювати без встановлення модулів.
+Але для консолі, мініфікації, операцій з файловою системою і т.ін. рекомендовано
+встановити додаткові модулі за допомогою наступної команди (наберіть в папці **Cloud Commander**'а):
 
-Щоб встановити додаткові модулі, напишіть знаходячись в папці **Cloud Commander**:
-
-    npm i
+    npm install
 
 Гарячі клавіші
 ---------------
