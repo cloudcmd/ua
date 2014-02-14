@@ -327,10 +327,9 @@ ln -s ./sites-enabled/io.cloudcmd.io ./sites-available
     npm r cloudcmd
     npm i cloudcmd
 
-Розширення
+Список додаткових модулів
 ---------------
-**Cloud Commander** створено з можливістю легкого розширення основного функціоналу.
-Щоб розширити функціонал Cloud Commander, використовуйте такі модулі:
+Щоб розширити функціонал файлового менеджера, використано такі модулі:
 
 - [Ace]                     [AceURL]
 - [FancyBox]                [FancyBoxURL]
