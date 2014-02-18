@@ -57,7 +57,7 @@ cd cloudcmd
 npm install
 node cloudcmd
 ```
-або встановити в npm:
+або встановити з npm:
 ```
 npm install cloudcmd -g
 cloudcmd
