@@ -42,7 +42,7 @@ Cloud Commander 0.9.0 [![NPM version][NPMIMGURL]][NPMURL] [![Dependency Status][
  
 Встановлення
 ---------------
-[![NPM_INFO][NPM_INFO_IMG]][NPM_INFO_URL]
+![NPM_INFO][NPM_INFO_IMG]
 
 **Cloud Commander** встановлюється дуже просто.
 Все що вам потрібно: 
