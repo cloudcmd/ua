@@ -42,39 +42,16 @@ Cloud Commander 0.9.0 [![NPM version][NPMIMGURL]][NPMURL] [![Dependency Status][
  
 Встановлення
 ---------------
+
+**Cloud Commander** встановлюється дуже просто:
+
+- встановити [node.js](http://nodejs.org/ "node.js").
+- встановити ```cloudcmd``` за допомогою однієї простої команди.
+
 ![NPM_INFO][NPM_INFO_IMG]
-
-**Cloud Commander** встановлюється дуже просто.
-Все що вам потрібно: 
-
-- встановити [node.js](http://nodejs.org/ "node.js")
-- [завантажити](https://github.com/coderaiser/cloudcmd/archive/master.zip)
-і розпакувати або просто клонувати репозиторій з github:
-
-```
-git clone git://github.com/coderaiser/cloudcmd.git
-cd cloudcmd
-npm install
-node cloudcmd
-```
-або встановити з npm:
-```
-npm install cloudcmd -g
-cloudcmd
-```
-
-Додаткові модулі
----------------
-**Cloud Commander** може працювати без встановлення модулів.
-Але для консолі, мініфікації, операцій з файловою системою і т.ін. рекомендовано
-встановити додаткові модулі за допомогою наступної команди (наберіть в папці **Cloud Commander**'а):
-
-    npm install
 
 Гарячі клавіші
 ---------------
-В усіх сучасних веб оглядачах (окрім Інтернет Експлорера, бо він особливий) гарячі клавіші працюють.
-Короткий список:
 
 - **F1**                - допомога
 - **F2**                - змінити назву обраного файлу
