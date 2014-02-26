@@ -31,8 +31,6 @@ Cloud Commander 0.9.0 [![NPM version][NPMIMGURL]][NPMURL] [![Dependency Status][
 
 ![Cloud Commander](http://cloudcmd.io/img/logo/cloudcmd.png "Cloud Commander")
 
-[![Flattr][FlattrIMGURL]][FlattrURL]
-
 Переваги
 ---------------
 - Відкритий код.
