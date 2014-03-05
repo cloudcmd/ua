@@ -33,7 +33,7 @@ Cloud Commander 0.9.0 [![NPM version][NPMIMGURL]][NPMURL] [![Dependency Status][
 
 Переваги
 ---------------
-- Відкритий код.
+- Відкритий код (**MIT License**).
 - Має дві класичні панелі.
 - Працює під Windows, Linux та Mac OS.
 - Може використовуватись локально або віддалено.
