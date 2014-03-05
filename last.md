@@ -27,7 +27,9 @@ Cloud Commander 0.9.0 [![NPM version][NPMIMGURL]][NPMURL] [![Dependency Status][
 [JitSu_LIVE_IMG]:           http://status-ok.cloudcmd.io/host/cloudcmd.jit.su/fs?json "JitSu"
 [HEROKU_LIVE_IMG]:          http://status-ok.cloudcmd.io/host/cloudcmd.herokuapp.com/fs?json "Heroku"
 
-**Cloud Commander** - хмарний файловий менеджер з консоллю та редактором.
+**Cloud Commander** - хмарний файловий менеджер з консоллю та редактором. Допоможе вам: **створювати**, **редагувати**, **переносити** і **видаляти файли** та **папки** і все це у вашому улюбленому браузері на любому комп'ютері. Файловий менеджер складається з двох частин: 
+- **клієнтської** (з простим приємним інтерфейсом)
+- **серверної** (розробленої на Node.js)
 
 ![Cloud Commander](http://cloudcmd.io/img/logo/cloudcmd.png "Cloud Commander")
 
@@ -39,6 +41,7 @@ Cloud Commander 0.9.0 [![NPM version][NPMIMGURL]][NPMURL] [![Dependency Status][
 - Може використовуватись локально або віддалено.
 - Має гарну консоль та редактор.
 - Написаний на JavaScript/Node.js.
+- Працює в браузері.
  
 Встановлення
 ---------------
