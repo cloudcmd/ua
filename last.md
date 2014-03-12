@@ -183,16 +183,18 @@ git update-index --no-assume-unchanged json/config.json
 Просто запустіть [shell/addtables.sh](http://github.com/coderaiser/cloudcmd/blob/master/shell/addtables.sh) для стандартних опцій.
 
 ```sh
-+# iptables -t nat -L # look rules before
-+# iptables -t nat -A PREROUTING -p tcp --dport 80 -j REDIRECT --to-ports 8000
-+# iptables -t nat -A PREROUTING -p tcp --dport 443 -j REDIRECT --to-ports 4430
-+# iptables -t nat -L # look rules after
+# iptables -t nat -L # look rules before
+# iptables -t nat -A PREROUTING -p tcp --dport 80 -j REDIRECT --to-ports 8000
+# iptables -t nat -A PREROUTING -p tcp --dport 443 -j REDIRECT --to-ports 4430
+# iptables -t nat -L # look rules after
 ```
+
 Ви маєте побачити щось назразок ( **8000** та **4430** мають бути в config як **port** і **sslPort** )
 ```
 target     prot opt source               destination
 REDIRECT   tcp  --  anywhere             anywhere             tcp dpt:http redir ports 8000
 REDIRECT   tcp  --  anywhere             anywhere             tcp dpt:https redir ports 4430
+```
 
 Якщо захочете все повернути, просто очистіть правила ( **1** та **2** це номера правил,
 у вашому випадку вони можуть відрізнятися).
