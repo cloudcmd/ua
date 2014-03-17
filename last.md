@@ -10,9 +10,9 @@ Cloud Commander 0.9.0
 [IOURL]:                    http://io.cloudcmd.io "IO"
 [JitSuURL]:                 http://cloudcmd.jit.su "JitSu"
 [HerokuURL]:                http://cloudcmd.herokuapp.com/ "Heroku"
-[IO_LIVE_IMG]:              http://status-ok.cloudcmd.io/host/io.cloudcmd.io/fs?json "IO"
-[JitSu_LIVE_IMG]:           http://status-ok.cloudcmd.io/host/cloudcmd.jit.su/fs?json "JitSu"
-[HEROKU_LIVE_IMG]:          http://status-ok.cloudcmd.io/host/cloudcmd.herokuapp.com/fs?json "Heroku"
+[IO_LIVE_IMG]:              https://status-ok.cloudcmd.io/host/io.cloudcmd.io/img/txt.png "IO"
+[JitSu_LIVE_IMG]:           https://status-ok.cloudcmd.io/host/cloudcmd.jit.su/img/txt.png "JitSu"
+[HEROKU_LIVE_IMG]:          https://status-ok.cloudcmd.io/host/cloudcmd.herokuapp.com/img/txt.png "Heroku"
 
 **Cloud Commander** - хмарний файловий менеджер з консоллю та редактором. Допоможе вам: **створювати**, **редагувати**, **переносити** і **видаляти файли** та **папки** і все це у вашому улюбленому браузері на будь-якому комп'ютері. Файловий менеджер складається з двох частин: 
 
