@@ -145,6 +145,7 @@ Cloud Commander 0.9.0
 - Змінити назву
 - Знищити
 - Zip файл
+- UnZip файл
 - Обрати все
 - Вивантажити до (Dropbox, Github, GDrive)
 - Завантажити
