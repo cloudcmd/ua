@@ -376,7 +376,7 @@ ln -s ./sites-enabled/io.cloudcmd.io ./sites-available
 
 Щира подяка:
 ---------------
-- [Polietilena](http://polietilena.github.io/ "Polietilena") за [логотип](http://cloudcmd.io/img/logo/cloudcmd.png "логотип") так [favicon](http://cloudcmd.io/img/favicon/favicon.png "favicon");
+- [Polietilena](http://polietilena.github.io/ "Polietilena") за **logo** and **favicon**.
 - [TarZak](https://github.com/tarzak)
     - Російський та український переклади;
     - налаштування: [шаблон](html/config.html) та [стилі](css/config.css);
