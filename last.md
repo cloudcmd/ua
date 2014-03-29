@@ -204,7 +204,7 @@ git update-index --no-assume-unchanged json/config.json
 Існує декілька простих і швидких шляхів. Один з них - просування портів через iptables.
 
 ###Iptables
-Просто запустіть [shell/addtables.sh](http://github.com/coderaiser/cloudcmd/blob/master/shell/addtables.sh) для стандартних опцій.
+Просто запустіть `shell/addtables.sh` для стандартних опцій.
 
 ```sh
 iptables -t nat -L # look rules before
