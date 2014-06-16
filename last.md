@@ -392,7 +392,7 @@ ln -s ./sites-enabled/io.cloudcmd.io ./sites-available
 
 Щира подяка:
 ---------------
-- [Polietilena](http://polietilena.github.io/ "Polietilena") за **logo** and **favicon**.
+- [Polietilena](http://polietilena.github.io/ "Polietilena") за **logo** та **favicon**.
 - [TarZak](https://github.com/tarzak)
     - Російський та український переклади;
     - налаштування: [шаблон](html/config.html) та [стилі](css/config.css);
