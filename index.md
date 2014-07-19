@@ -48,15 +48,12 @@ Cloud Commander 1.1.1
 **Cloud Commander** встановлюється дуже просто:
 
 - встановити [node.js](http://nodejs.org/ "node.js").
-
 - встановити ```cloudcmd``` через npm:
  
-    npm install cloudcmd #local install
-
-або
-
-    npm install cloudcmd -g #global install
-
+```sh
+npm install cloudcmd #local install або
+npm install cloudcmd -g #global install
+```
 
 ![NPM_INFO][NPM_INFO_IMG]
 
