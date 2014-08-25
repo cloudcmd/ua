@@ -89,6 +89,7 @@ npm install cloudcmd -g #global install
 Якщо Ви клонували репозиторій, Ви можете отримати останні зміни командою:
 
     git pull
+    npm i
 
 Якщо ви встановили Cloud Commander за допомогою `npm`, просто перевстановіть його:
 
