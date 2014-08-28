@@ -206,7 +206,6 @@ npm install cloudcmd -g #global install
     "auth"              : false,     /* дозволити http авторизацію                                  */
     "username"          : "root",    /* ім'я користувача для авторизації                            */
     "password"          : "toor",    /* хеш пароль в sha-1 для авторизації                          */
-    "appCache"          : false,     /* кешувати файли для оффлайнового використання                */
     "analytics"         : true,      /* підтримка google analytics                                  */
     "diff"              : false,     /* при збереженні - відсилає патч, а не повний файл            */
     "zip"               : false,     /* zip текст пере посиланням / unzip перед збереженням         */
