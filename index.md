@@ -217,6 +217,7 @@ npm install cloudcmd -g #global install
     "zip"               : false,     /* zip текст пере посиланням / unzip перед збереженням         */
     "notifications"     : false,     /* показувати сповіщення, коли вкладка не активна              */
     "localStorage"      : true,      /* кешування вмісту папки                                      */
+    "buffer"            : true,      /* buffer for copying files                                    */
     "minify"            : true,      /* мініфікація js, css, html та зображень                      */
     "cache"             : true,      /* додати контроль кешу                                        */
     "online"            : true,      /* загрузити файли js з cdn або Local path                     */
