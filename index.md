@@ -222,7 +222,6 @@ npm install cloudcmd -g #global install
     "minify"            : true,      /* мініфікація js, css, html та зображень                      */
     "cache"             : true,      /* додати контроль кешу                                        */
     "online"            : true,      /* загрузити файли js з cdn або Local path                     */
-    "logs"              : false,     /* виводити в логи чи в консоль                                */
     "showKeysPanel"     : true,      /* показати класичну панель з кнопками функціональних клавіш   */
     "server"            : true,      /* режим сервера чи тестування                                 */
     "socket"            : true,      /* увімкнути web сокети                                        */
