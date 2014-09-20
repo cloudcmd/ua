@@ -224,7 +224,6 @@ npm install cloudcmd -g #global install
     "online"            : true,      /* загрузити файли js з cdn або Local path                     */
     "showKeysPanel"     : true,      /* показати класичну панель з кнопками функціональних клавіш   */
     "server"            : true,      /* режим сервера чи тестування                                 */
-    "socket"            : true,      /* увімкнути web сокети                                        */
     "port"              : 8000,      /* http порт                                                   */
     "ip"                : null,      /* ip чи null(за замовчуванням)                                */
 }
