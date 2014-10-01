@@ -181,6 +181,7 @@ npm install cloudcmd -g #global install
 - Видалити
 - спакувати
 - розпакувати
+- Вивантажити
 - Вивантажити до (Dropbox, Github, GDrive)
 - Завантажити
 - Новий (Файл, Папка, з хмари)
