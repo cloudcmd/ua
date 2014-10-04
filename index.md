@@ -160,6 +160,8 @@ npm install cloudcmd -g #global install
 | `Ctrl + l`            | очистити
 | `Esc`                 | закрити
 
+Детальніше [Jq-console гарячі клавіші](https://github.com/replit/jq-console#default-key-config).
+
 Налаштування
 ---------------
 ![Налаштування](http://cloudcmd.io/img/screen/config.png "Налаштування")
