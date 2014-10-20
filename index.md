@@ -172,6 +172,32 @@ npm install cloudcmd -g #global install
 | `F10`                 | відкрити
 | `Esc`                 | закрити
 
+Коли Ви змінюєте одну з опцій, файл `~/.cloudcmd.json` може бути збережений.
+Їх можна змінювати особисто в любому текстовому редакторі.
+Опис опцій:
+
+```js
+{
+    "auth"              : false,     /* дозволити http авторизацію                                  */
+    "username"          : "root",    /* ім'я користувача для авторизації                            */
+    "password"          : "toor",    /* хеш пароль в sha-1 для авторизації                          */
+    "analytics"         : true,      /* підтримка google analytics                                  */
+    "diff"              : false,     /* при збереженні - відсилає патч, а не повний файл            */
+    "zip"               : false,     /* zip текст пере посиланням / unzip перед збереженням         */
+    "notifications"     : false,     /* показувати сповіщення, коли вкладка не активна              */
+    "localStorage"      : true,      /* кешування вмісту папки                                      */
+    "buffer"            : true,      /* буфер для копіювання файлів                                 */
+    "dirStorage"        : true,      /* зберігає лістинг папки в localStorage                       */
+    "minify"            : true,      /* мініфікація js, css, html та зображень                      */
+    "cache"             : true,      /* додати контроль кешу                                        */
+    "online"            : true,      /* загрузити файли js з cdn або Local path                     */
+    "showKeysPanel"     : true,      /* показати класичну панель з кнопками функціональних клавіш   */
+    "server"            : true,      /* режим сервера чи тестування                                 */
+    "port"              : 8000,      /* http порт                                                   */
+    "ip"                : null,      /* ip чи null(за замовчуванням)                                */
+}
+```
+
 Меню
 ---------------
 ![Menu](http://cloudcmd.io/img/screen/menu.png "Меню")
@@ -197,45 +223,6 @@ npm install cloudcmd -g #global install
 |:----------------------|:--------------------------------------------
 | `F9`                  | відкрити
 | `Esc`                 | закрити
-
-Налаштування
----------------
-Всі головні налаштування можна встановити в `json/config.json`.
-
-```js
-{
-    "auth"              : false,     /* дозволити http авторизацію                                  */
-    "username"          : "root",    /* ім'я користувача для авторизації                            */
-    "password"          : "toor",    /* хеш пароль в sha-1 для авторизації                          */
-    "analytics"         : true,      /* підтримка google analytics                                  */
-    "diff"              : false,     /* при збереженні - відсилає патч, а не повний файл            */
-    "zip"               : false,     /* zip текст пере посиланням / unzip перед збереженням         */
-    "notifications"     : false,     /* показувати сповіщення, коли вкладка не активна              */
-    "localStorage"      : true,      /* кешування вмісту папки                                      */
-    "buffer"            : true,      /* буфер для копіювання файлів                                 */
-    "dirStorage"        : true,      /* зберігає лістинг папки в localStorage                       */
-    "minify"            : true,      /* мініфікація js, css, html та зображень                      */
-    "cache"             : true,      /* додати контроль кешу                                        */
-    "online"            : true,      /* загрузити файли js з cdn або Local path                     */
-    "showKeysPanel"     : true,      /* показати класичну панель з кнопками функціональних клавіш   */
-    "server"            : true,      /* режим сервера чи тестування                                 */
-    "port"              : 8000,      /* http порт                                                   */
-    "ip"                : null,      /* ip чи null(за замовчуванням)                                */
-}
-```
-
-Якщо ви змінили **config** і хочете продовжувати оновлюватись за допомогою git,
-вам потрібно виконати наступну команду в кореневій директорії **Cloud Commander**:
-
-```
-git update-index --assume-unchanged json/config.json
-```
-
-Щоб повернутися до відстежування:
-
-```
-git update-index --no-assume-unchanged json/config.json
-```
 
 Сервер
 ---------------
