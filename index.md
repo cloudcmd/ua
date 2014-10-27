@@ -135,14 +135,14 @@ npm i cloudcmd -g
 
 Перегляд
 ---------------
-![View](/img/screen/view.png "View")
+![View](http://cloudcmd.io/img/screen/view.png "View")
 
 ### Можливості
 - Переглянути зображення.
 - Переглянути текстові файли.
 - Програти аудіо.
 - Програти відео.
-- 
+
 ###Гарячі клавіші
 |Клавіша                |Дія
 |:----------------------|:--------------------------------------------
@@ -156,7 +156,7 @@ npm i cloudcmd -g
  ### Можливості
 - Підсвітка синтаксису в залежності від типу файла, для більш ніж 110 мов.
 - Вбудований `emmet` (для html файлів)
-- Drag n drop (перетягніть файл з робочого столу в редактор).
+- Drag'n'drop (перетягніть файл з робочого столу в редактор)
 - Вбудований `jshint` (з опціями в `.jshintrc` файлі)
 - Вбудований `beautifier` (з опціями в `json/beautify.json`, можуть бути переназначені в `~/.beautify.json`)
 - Налаштування (можна відредагувати в `json/edit.json`)
@@ -173,7 +173,7 @@ npm i cloudcmd -g
 | `Ctrl + m`            | minify js, css або html
 | `Esc`                 | закрити
 
-Детальніше [Гарячі клавіші Ace](https://github.com/ajaxorg/ace/wiki/Default-Keyboard-Shortcuts "Гарячі клавіші Ace").
+[Гарячі клавіші Ace](https://github.com/ajaxorg/ace/wiki/Default-Keyboard-Shortcuts "Гарячі клавіші Ace").
 
 Консоль
 ---------------
@@ -188,7 +188,7 @@ npm i cloudcmd -g
 | `Ctrl + l`            | очистити
 | `Esc`                 | закрити
 
-Детальніше [Jq-console гарячі клавіші](https://github.com/replit/jq-console#default-key-config).
+[Гарячі клавіші Jq-console](https://github.com/replit/jq-console#default-key-config).
 
 Налаштування
 ---------------
