@@ -47,7 +47,7 @@ Cloud Commander 2.0.0
 
 **Cloud Commander** встановлюється дуже просто:
 
-- встановити [node.js](http://nodejs.org/ "node.js").
+- встановити [node.js](http://nodejs.org/ "node.js") або [io.js](https://iojs.org/ "io.js"), якщо ви цього ще не зробили.
 - встановити ```cloudcmd``` через npm:
  
 ```sh
