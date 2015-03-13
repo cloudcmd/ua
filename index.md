@@ -14,7 +14,7 @@ lang:
    translation: Російською
 ---
 
-Cloud Commander 2.1.0
+Cloud Commander 2.2.0
 ===============
 ###[Головна][MainURL] [Блог][BlogURL] Наживо(![JitSu][JitSu_LIVE_IMG] [JitSu][JitSuURL], ![Heroku][Heroku_LIVE_IMG] [Heroku][HerokuURL])
 [NPM_INFO_IMG]:             https://camo.githubusercontent.com/254a020afe689842501ef5a79c04ba909f9b29d2/68747470733a2f2f6e6f6465692e636f2f6e706d2f636c6f7564636d642e706e673f646f776e6c6f6164733d7472756526267374617273 "npm install cloudcmd"
@@ -76,12 +76,6 @@ cloudcmd
 Якщо не задано параметрів, Cloud Commander читає інформацію з `~/.cloudcmd.json` і використовує стандартний порт звідти (`8000` по замовчуванню), якщо змінних з іменами `PORT` або `VCAP_APP_PORT` не існує.
 
 Для початку роботи, наберіть в адресному рядку вашого браузера:
-
-```
-http://localhost:<port>
-```
-
-При налаштуваннях по замовчуванню:
 
 ```
 http://localhost:8000
@@ -330,6 +324,7 @@ ln -s ./sites-enabled/io.cloudcmd.io ./sites-available
 
 Історія версій
 ---------------
+- *2015.03.13*, **[v2.2.0](//github.com/cloudcmd/archive/raw/master/cloudcmd-v2.2.0.zip)**
 - *2015.02.02*, **[v2.1.0](//github.com/cloudcmd/archive/raw/master/cloudcmd-v2.1.0.zip)**
 - *2014.12.09*, **[v2.0.0](//github.com/cloudcmd/archive/raw/master/cloudcmd-v2.0.0.zip)**
 - *2014.11.21*, **[v1.5.1](//github.com/cloudcmd/archive/raw/master/cloudcmd-v1.5.1.zip)**
