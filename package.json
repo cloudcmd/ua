@@ -1,5 +1,6 @@
 {
   "name": "cloudcmd-ua",
+  "version": "2.2.1",
   "private": true,
   "description": "ua",
   "scripts": {
