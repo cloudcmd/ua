@@ -52,6 +52,7 @@ Cloud Commander 2.4.1
 **Cloud Commander** встановлюється дуже просто:
 
 - встановити [node.js](http://nodejs.org/ "node.js") або [io.js](https://iojs.org/ "io.js"), якщо ви цього ще не зробили.
+- встановити [bower](http://bower.io "Bower") і [git](http://git-scm.com "Git") ([Як встановити Git під Windows (en)](https://github.com/bower/bower#windows-users "Як встановити Git під Windows (en)"))
 - встановити ```cloudcmd``` через npm:
  
 ```sh
@@ -75,11 +76,14 @@ cloudcmd
 | `-h, --help`          | допомога
 | `-v, --version`       | вивести версію
 | `-s, --save`          | зберегти налаштування
+| `-o, --online`        | вантажити скрипти з віддалених серверів
 | `-a, --auth`          | увімкнути авторизацію
 | `-u, --username`      | вказати ім'я користувача
 | `-p, --password`      | вказати пароль
 | `--port`              | вказати порт
 | `--no-auth`           | вимкнути авторизацію
+| `--no-server`         | не запускати сервер
+| `--no-online`         | вантажити скрипти з локального серверу
 
 Якщо не задано параметрів, Cloud Commander читає інформацію з `~/.cloudcmd.json` і використовує стандартний порт звідти (`8000` по замовчуванню), якщо змінних з іменами `PORT` або `VCAP_APP_PORT` не існує.
 
