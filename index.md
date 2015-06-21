@@ -222,7 +222,7 @@ npm update cloudcmd -g
     "localStorage"      : true,      /* локальне сховище                                            */
     "buffer"            : true,      /* буфер для копіювання файлів                                 */
     "dirStorage"        : true,      /* зберігаті лістинг каталогів в localStorage                  */
-    "minify"            : true,      /* мініфікація js, css, html та зображень                      */
+    "minify"            : false,     /* мініфікація js, css, html та зображень                      */
     "cache"             : true,      /* додати контроль кешу                                        */
     "online"            : true,      /* загрузити файли js з cdn або Local path                     */
     "showKeysPanel"     : true,      /* показати класичну панель з кнопками функціональних клавіш   */
