@@ -267,6 +267,35 @@ Cloud Commander може працювати в режимі однієї пан�
 
 ![Режим однієї панелі](http://cloudcmd.io/img/screen/one-panel-mode.png "Режим однієї панелі")
 
+Використання у ролі Middleware
+---------------
+
+Cloud Commander можна використовувати як middleware для `node.js` додатків, що побудовані на  [socket.io](http://socket.io Socket.IO") та [express](http://expressjs.com "Express"):
+
+```js
+var http        = require('http'),
+    cloudcmd    = require('cloudcmd'),
+    express     = require('express'),
+    io          = require('socket.io'),
+    app         = express(),
+    
+    PORT        = 31337,
+    
+    server,
+    socket;
+    
+server = http.createServer(app);
+socket = io.listen(server);
+
+app.use(cloudcmd({
+    prefix: '/prefix',  /* основний URL (не обовз'язково)                                                      */
+    socket: socket,     /* використовується Config'ом, Edit'ом (не обов'язково) та Console'ллю (обов'язково)   */
+    config: {}          /* дані налаштуваннь (не обов'язково)                                                  */
+}));
+
+server.listen(PORT);
+```
+
 Сервер
 ---------------
 Зазвичай процеси, що запущено з правами не root не можуть прослуховувати порти нижче ніж 1024.
