@@ -279,7 +279,7 @@ var http        = require('http'),
     io          = require('socket.io'),
     app         = express(),
     
-    PORT        = 31337,
+    PORT        = 1337,
     
     server,
     socket;
@@ -288,7 +288,7 @@ server = http.createServer(app);
 socket = io.listen(server);
 
 app.use(cloudcmd({
-    prefix: '/prefix',  /* основний URL або функція що повертає основний URL (не обов'язково)                 */
+    prefix: '/cloudcmd', /* основний URL або функція що повертає основний URL (не обов'язково)                 */
     socket: socket,     /* використовується Config'ом, Edit'ом (не обов'язково) та Console'ллю (обов'язково)   */
     config: {}          /* дані налаштуваннь (не обов'язково)                                                  */
 }));
