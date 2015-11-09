@@ -62,6 +62,12 @@ npm i cloudcmd -g
 
 ![NPM_INFO][NPM_INFO_IMG]
 
+В непередбачених ситуаціях:
+
+```sh
+npm i cloudcmd -g --force
+```
+
 Запуск
 ---------------
 Для запуску наберіть в консолі:
