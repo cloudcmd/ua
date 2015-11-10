@@ -62,7 +62,7 @@ npm i cloudcmd -g
 
 ![NPM_INFO][NPM_INFO_IMG]
 
-В непередбачених ситуаціях:
+У разі халепи:
 
 ```sh
 npm i cloudcmd -g --force
