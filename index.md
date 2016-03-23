@@ -412,7 +412,7 @@ Docker
 `Cloud Commander` може бути використаний як [docker контейнер](https://hub.docker.com/r/coderaiser/cloudcmd/ "Docker контейнер"):
 
 ```sh
-docker run -v ~:/root -v /:/mnt/fs -it -p 8000:8000 coderaiser/cloudcmd
+docker run -v ~:/root -v /:/mnt/fs -t -p 8000:8000 coderaiser/cloudcmd
 ```
 
 Налаштування будуть читатися з домашнього каталогу, корінь файлової системи буде монтований у `/mnt/fs`,
