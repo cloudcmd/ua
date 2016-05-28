@@ -583,6 +583,6 @@ services:
 Щира подяка:
 ---------------
 - [Polietilena](http://polietilena.github.io/ "Polietilena") за **logo** та **favicon**.
-- [TarZak](https://github.com/tarzak)
+- [TarZak](https://github.com/tarzak "TarZak")
     - Російський та український переклади;
     - налаштування: шаблон та стилі
