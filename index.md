@@ -16,7 +16,7 @@ lang:
 hideDownloadButtons: true
 ---
 
-# Cloud Commander v5.4.2
+# Cloud Commander 5.4.2
 
 ### [Головна][MainURL] [Блог][BlogURL] Наживо(![Heroku][Heroku_LIVE_IMG] [Heroku][HerokuURL])
 
