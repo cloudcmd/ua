@@ -13,6 +13,14 @@ lang:
    link: //ru.cloudcmd.io
    translation: Російською
 
+scripts:
+ - https://ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js
+ - https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.js
+ - https://files.cloudcmd.io/js/view.js
+
+styles:
+ - https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css
+
 hideDownloadButtons: true
 ---
 
@@ -32,7 +40,7 @@ hideDownloadButtons: true
 
 **Cloud Commander** - двопанельний веб файл менеджер з консоллю та редактором. Допоможе вам керувати сервером та працювати з файлами, каталогами і програмами в браузері на будь-якому комп'ютері, смартфоні або планшеті.
 
-![Cloud Commander](http://cloudcmd.io/img/logo/cloudcmd.png "Cloud Commander")
+![Cloud Commander](//cloudcmd.io/img/logo/cloudcmd.png "Cloud Commander")
 
 Переваги
 ---------------
@@ -166,7 +174,7 @@ npm update cloudcmd -g
 
 Перегляд
 ---------------
-![View](http://cloudcmd.io/img/screen/view.png "View")
+![View](//cloudcmd.io/img/screen/view.png "View")
 
 ### Можливості
 - Переглянути зображення.
@@ -183,7 +191,7 @@ npm update cloudcmd -g
 
 Редактор
 ---------------
-![Edit](http://cloudcmd.io/img/screen/edit.png "Edit")
+![Edit](//cloudcmd.io/img/screen/edit.png "Edit")
 
 ### Гарячі клавіші
 
@@ -196,7 +204,7 @@ npm update cloudcmd -g
 
 Консоль
 ---------------
-![Консоль](http://cloudcmd.io/img/screen/console.png "Консоль")
+![Консоль](//cloudcmd.io/img/screen/console.png "Консоль")
 
 ### Гарячі клавіші
 
@@ -210,7 +218,7 @@ npm update cloudcmd -g
 
 Налаштування
 ---------------
-![Налаштування](http://cloudcmd.io/img/screen/config.png "Налаштування")
+![Налаштування](//cloudcmd.io/img/screen/config.png "Налаштування")
 
 ###Гарячі клавіші
 
@@ -252,7 +260,7 @@ npm update cloudcmd -g
 
 Меню
 ---------------
-![Menu](http://cloudcmd.io/img/screen/menu.png "Меню")
+![Menu](//cloudcmd.io/img/screen/menu.png "Меню")
 
 Натискання на праву клавішу мишки, викликає меню з наступними пунктами:
 
@@ -285,7 +293,7 @@ npm update cloudcmd -g
 Cloud Commander може працювати в режимі однієї панелі, у випадку, коли розмір екрану не дає змоги розмістити другу панель.
 Таке може статися коли Ви працюєте з файловим менеджером із мобільного засобу, планшету або у маленькому вікні браузера.
 
-![Режим однієї панелі](http://cloudcmd.io/img/screen/one-panel-mode.png "Режим однієї панелі")
+![Режим однієї панелі](//cloudcmd.io/img/screen/one-panel-mode.png "Режим однієї панелі")
 
 Використання у ролі Middleware
 ---------------
