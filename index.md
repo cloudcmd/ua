@@ -60,7 +60,7 @@ hideDownloadButtons: true
 **Cloud Commander** встановлюється дуже просто:
 
 - встановити останню версію [node.js](http://nodejs.org/ "node.js"), якщо ви цього ще не зробили.
-- встановити ```cloudcmd``` через npm:
+- встановити `cloudcmd` через `npm`:
  
 ```sh
 npm i cloudcmd -g
