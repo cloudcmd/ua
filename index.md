@@ -35,7 +35,8 @@ hideDownloadButtons: true
 
 [DWORD]:                    https://github.com/cloudcmd/dword "Editor based on CodeMirror"
 [EDWARD]:                   https://github.com/cloudcmd/edward "Editor based on Ace"
-[EDWARD_KEYS]:              https://github.com/cloudcmd/edward/#hot-keys "Edward Hot keys"
+[EDWARD_KEYS]:              https://github.com/cloudcmd/edward/#hot-keys "Edward Hot keys" 
+[TERMUX]:                   https://termux.com "Termux"
 
 **Cloud Commander** - двопанельний веб файл менеджер з консоллю та редактором. Допоможе вам керувати сервером та працювати з файлами, каталогами і програмами в браузері на будь-якому комп'ютері, смартфоні або планшеті.
 
@@ -47,7 +48,7 @@ hideDownloadButtons: true
 - Має дві класичні панелі.
 - Можливість **авторизації**.
 - Клієнт працює у веб браузері.
-- Сервер працює під **Windows**, **Linux** та **Mac OS**.
+- Сервер працює під **Windows**, **Linux**, **Mac OS** та **Android** (за допомогою [Termux][TERMUX]).
 - Може використовуватись локально або віддалено.
 - Підлаштовується під розмір екрану.
 - **Два вбудовані редактори** з підтримкою **підсвітки синтаксису**: [Dword][DWORD] та [Edward][EDWARD].
