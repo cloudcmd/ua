@@ -448,6 +448,15 @@ services:
     docker-compose up
 ```
 
+Долучайтесь
+---------------
+ 
+Існує багато способів долучитися до розробки `Cloud Commander`:
+ 
+ - якщо ви знайшли баг або маєте ідею [створюйте issue](https://github.com/coderaiser/cloudcmd/issues/new "Створити issue");
+ - якщо ви виправили баг, помилку в тесті або реалізували новий функціонал [створюйте pull request](https://github.com/coderaiser/cloudcmd/compare "Створити pull request");
+ - якщо Ви володієте мовами Ви можете допомогти з [перекладом сайту](https://github.com/coderaiser/cloudcmd/wiki "Вікі спільноти Cloud Commander");
+
 Історія версій
 ---------------
 - *2016.11.22*, **[v5.10.1](//github.com/coderaiser/cloudcmd/releases/tag/v5.10.1)**
