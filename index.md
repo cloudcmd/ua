@@ -237,7 +237,6 @@ npm update cloudcmd -g
     "editor"            : "edward",  /* стандартний, може бути "dword" або "edward"                 */
     "diff"              : false,     /* при збереженні - відсилає патч, а не повний файл            */
     "zip"               : false,     /* zip текст пере посиланням / unzip перед збереженням         */
-    "notifications"     : false,     /* показувати сповіщення, коли вкладка не активна              */
     "localStorage"      : true,      /* локальне сховище                                            */
     "buffer"            : true,      /* буфер для копіювання файлів                                 */
     "dirStorage"        : true,      /* зберігаті лістинг каталогів в localStorage                  */
