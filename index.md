@@ -354,7 +354,7 @@ iptables -t nat -D PREROUTING 2
 iptables -t nat -D PREROUTING 1
 ```
 
-###nginx
+### nginx
 Візьміть [nginx](http://nginx.org/ "nginx"). В Linux це можна зробити наступним чином:
 
 ```sh
