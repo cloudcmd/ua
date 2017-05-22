@@ -30,5 +30,8 @@
     "shortdate": "~1.0.1",
     "yaspeller": "~1.0.2"
   },
+  "engines": {
+    "node": ">=4"
+  },
   "dependencies": {}
 }
