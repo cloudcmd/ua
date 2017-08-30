@@ -10,7 +10,7 @@
     "yaspeller": "yaspeller index.md",
     "spell": "yaspeller index.md",
     "test": "npm run yaspeller",
-    "wisdom": "bin/release.js"
+    "wisdom:type": "bin/release.js"
   },
   "repository": {
     "type": "git",
