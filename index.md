@@ -296,13 +296,13 @@ Cloud Commander може працювати в режимі однієї пан�
 
 Cloud Commander можна використовувати як middleware для `node.js` додатків, що побудовані на  [socket.io](http://socket.io "Socket.IO") та [express](http://expressjs.com "Express").
 
-Створоріть `package.json`:
+Створіть `package.json`:
 
 ```
 npm init -y
 ```
 
-Встановіть заложності:
+Встановіть залeжності:
 
 ```
 npm i cloudcmd express socket.io -S
