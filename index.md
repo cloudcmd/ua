@@ -302,7 +302,7 @@ Cloud Commander можна використовувати як middleware для
 npm init -y
 ```
 
-Встановіть залeжності:
+Встановіть залежності:
 
 ```
 npm i cloudcmd express socket.io -S
