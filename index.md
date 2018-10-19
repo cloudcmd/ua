@@ -31,7 +31,7 @@ hideDownloadButtons: true
 [MainURL]:                  http://cloudcmd.io "Головна"
 [BlogURL]:                  http://blog.cloudcmd.io "Блог"
 [HerokuURL]:                http://cloudcmd.herokuapp.com/ "Heroku"
-[HEROKU_LIVE_IMG]:          https://status-io.cloudcmd.io/host/cloudcmd.herokuapp.com/img/txt.png "Heroku"
+[HEROKU_LIVE_IMG]:          https://status.cloudcmd.io/host/cloudcmd.herokuapp.com/img/txt.png "Heroku"
 
 [DWORD]:                    https://github.com/cloudcmd/dword "Редактор базується на CodeMirror"
 [EDWARD]:                   https://github.com/cloudcmd/edward "Редактор базується на Ace"
