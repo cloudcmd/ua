@@ -30,7 +30,7 @@ hideDownloadButtons: true
 
 [MainURL]:                  http://cloudcmd.io "Головна"
 [BlogURL]:                  http://blog.cloudcmd.io "Блог"
-[SupportURL]:               https://patreon.com/coderaiser
+[SupportURL]:               https://patreon.com/coderaiser "Patreon"
 
 [DWORD]:                    https://github.com/cloudcmd/dword "Редактор базується на CodeMirror"
 [EDWARD]:                   https://github.com/cloudcmd/edward "Редактор базується на Ace"
