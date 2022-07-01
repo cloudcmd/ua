@@ -26,10 +26,11 @@ hideDownloadButtons: true
 
 # Cloud Commander 16.3.0
 
-### [Головна][MainURL] [Блог][BlogURL]
+### [Головна][MainURL] [Блог][BlogURL] [Підтримати](SupportURL)
 
 [MainURL]:                  http://cloudcmd.io "Головна"
 [BlogURL]:                  http://blog.cloudcmd.io "Блог"
+[SupportURL]:               https://patreon.com/coderaiser
 
 [DWORD]:                    https://github.com/cloudcmd/dword "Редактор базується на CodeMirror"
 [EDWARD]:                   https://github.com/cloudcmd/edward "Редактор базується на Ace"
